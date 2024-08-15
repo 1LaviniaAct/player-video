@@ -1,0 +1,70 @@
+﻿body {
+    background-color: #FFDAB9;
+    text-align: center;
+    font-size: 11pt;
+    line-height: 1.2em;
+    margin: 0;
+    padding: 12px;
+}
+
+h2 {
+    font-family: Georgia;
+    text-align: center;
+    padding: 16px;
+    margin: -12px -12px 20px -12px;
+}
+#playlist {
+    display: flex;
+    justify-content: center;
+    position:relative;
+    align-items:center;
+}
+
+#playlist video {
+    border: 2px solid black; /* Poți ajusta grosimea și culoarea border-ului după preferințe */
+    box-sizing: border-box;
+    width: 200px; /* Lățimea dorită */
+    height: 100px; /* Înălțimea dorită */
+}
+
+#explicatii {
+    font-family: Georgia;
+    text-align: center;
+    border: 3px solid #DC143C;
+    background-color: #FFC0CB;
+    max-width: 600px;
+    margin: 10px auto; /*auto imi centreaza pt left si right*/
+}
+#explicatiiUtilizare {
+        font-style:italic;
+}
+#adaugareClip {
+    font-family: Georgia;
+    text-align: center;
+    border: 3px solid #DC143C;
+    background-color: #FFC0CB;
+    max-width: 550px;
+    padding: 10px; /* Adaugat pentru a mari spatiul din jurul elementului */
+    margin: 10px auto; /* Adaugat pentru a centra elementul in pagina */
+}
+#canvasVideo{
+    border:3px solid black;
+    margin:10px auto;
+}
+#butoanePentruVideo {
+    font-family: Georgia;
+    border: 3px solid #DC143C;
+    background-color: #FFC0CB;
+    max-width: 300px;
+    margin: auto;
+    padding:10px 0;
+}
+
+#playlist video.newly-added{
+    border:2px solid black;
+    box-sizing:border-box;
+    width:200px;
+    height:100px;
+}
+
+

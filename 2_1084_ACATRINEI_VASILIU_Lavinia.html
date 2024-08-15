@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <title>2_1084_ACATRINEI_VASILIU_Lavinia</title>
+    <script src="2_1084_ACATRINEI_VASILIU_Lavinia.js"></script>
+    <link rel="stylesheet" href="2_1084_ACATRINEI_VASILIU_Lavinia.css" />
+</head>
+<body>
+    <h2><em>PLAYER VIDEO</em></h2>
+    <div id="playlist">
+        <div id="play1">
+            <video id="video1" width="200" height="100" src="media/video1.mp4"></video>
+        </div>
+        <div id="play2">
+            <video id="video2" width="200" height="100" src="media/video2.mp4"></video>
+        </div>
+        <div id="play3">
+            <video id="video3" width="200" height="100" src="media/video3.mp4"></video>
+        </div>
+        <div id="play4">
+            <video id="video4" width="200" height="100" src="media/video4.mp4"></video>
+        </div>
+        
+    </div>
+
+    <div id="explicatii">
+        <p id="explicatiiUtilizare">Explicații pentru utilizare:</p>
+        <p> Dacă dorești să ștergi un clip video din lista de mai sus, apasă <strong> dublu click.</strong></p>
+        <p> Dacă dorești să pornești un clip video din lista de mai sus, apasă <strong>click.</strong></p>
+    </div>
+    <div id="adaugareClip">
+        Dorești să adaugi un videoclip în player-ul video?
+        <br />
+        <input type="file" id="btnAlegeVideo" value="aa" />
+        <input type="button" id="btnAdaugaVideo" value="Adauga videoclipul la playlist" />
+    </div>
+    <div>
+        <video controls id="videoPrincipal">
+            <source src="media/video1.mp4" type="video/mp4" />
+        </video>
+        <br />
+        <canvas id="canvasVideo" width="800" height="600"></canvas>
+    </div>
+
+
+</body>
+</html>
